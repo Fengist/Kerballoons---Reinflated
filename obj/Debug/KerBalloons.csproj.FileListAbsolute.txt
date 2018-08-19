@@ -1,0 +1,7 @@
+C:\Rods Stuff\c#\KerBalloons\obj\Debug\KerBalloons.csproj.CoreCompileInputs.cache
+C:\Desktop\Kerbal.Space.Program\GameData\KerBalloons\Plugins\KerBalloons.dll
+C:\Desktop\Kerbal.Space.Program\GameData\KerBalloons\Plugins\KerBalloons.pdb
+C:\Rods Stuff\c#\KerBalloons\obj\Debug\KerBalloons.dll
+C:\Rods Stuff\c#\KerBalloons\obj\Debug\KerBalloons.pdb
+C:\Rods Stuff\c#\KerBalloons\obj\Debug\KerBalloons.csprojAssemblyReference.cache
+C:\Rods Stuff\c#\KerBalloons\obj\Debug\KerBalloons.csproj.CopyComplete
