@@ -125,7 +125,7 @@ namespace KerBalloons
                     if (isInflated)
                     {
                         float lift = BalloonProperties.getLift(this);
-                        this.part.Rigidbody.AddForceAtPosition(vessel.upAxis * lift,liftPointObject.transform.position);
+                        this.part.AddForceAtPosition(vessel.upAxis * lift,liftPointObject.transform.position);
                         Vector3 scale = new Vector3(BalloonProperties.getScale(this), BalloonProperties.getScale(this), BalloonProperties.getScale(this));
                         balloonObject.transform.localScale = scale;
 
@@ -146,7 +146,7 @@ namespace KerBalloons
                             float progress = scaleInc / BalloonProperties.getScale(this);
 
                             float lift = BalloonProperties.getLift(this) * progress;
-                            this.part.Rigidbody.AddForceAtPosition(vessel.upAxis * lift, liftPointObject.transform.position);
+                            this.part.AddForceAtPosition(vessel.upAxis * lift, liftPointObject.transform.position);
 
                             ropeObject.transform.localScale = new Vector3(1, 1, progress);
                             balloonObject.transform.position = balloonPointObject.transform.position;
@@ -175,7 +175,7 @@ namespace KerBalloons
                         float progress = scaleInc / BalloonProperties.getScale(this);
 
                         float lift = BalloonProperties.getLift(this) * progress;
-                        this.part.Rigidbody.AddForceAtPosition(vessel.upAxis * lift, liftPointObject.transform.position);
+                        this.part.AddForceAtPosition(vessel.upAxis * lift, liftPointObject.transform.position);
 
 
                         ropeObject.transform.rotation = Quaternion.Slerp(ropeObject.transform.rotation, Quaternion.LookRotation(vessel.upAxis, vessel.upAxis), BalloonProperties.getLift(this) / 10);
